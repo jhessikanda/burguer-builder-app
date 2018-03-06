@@ -1,0 +1,4 @@
+const burguer = () => {
+
+  return();
+}
