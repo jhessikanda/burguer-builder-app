@@ -3,7 +3,7 @@ import burguerLogo from '../../assets/images/burger-logo.png'; //path where webp
 import classes from './Logo.css';
 
 const logo = (props) => (
-  <div className={classes.Logo}>
+  <div className={classes.Logo} style={{height: props.heigth}}>
     <img src={burguerLogo} alt="My Burguer"/>
   </div>
 );
